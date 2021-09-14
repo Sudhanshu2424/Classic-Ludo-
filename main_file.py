@@ -66,7 +66,6 @@ def red_turn(mposx,mposy,rx,ry,rp,fla,flag,cflag,T,dflag):
 
     if ( ( (mposx >= rx) and (mposx <= (rx+44)) ) and ( (mposy >= ry) and (mposy <= (ry+44)) ) ) or (fla==1):
 
-        print("yaa",[int(rx),int(ry)],rhc)
         if [rx,ry] in rh:
             if dflag == 6:
                 rx,ry=mc[14]
